@@ -17,7 +17,7 @@ module.exports ={
             console.log('ejecutando Especialidad Crear')
 
             res.json({
-                message:'Especialidad Creada: '+ req.body.nombre
+                message:'Especialidad Creada: '+ req.body.especialidad
             })
         } catch (error) {
             console.log(error)
