@@ -11,9 +11,8 @@ const especialidadRoutes = require('./especialidad.routes')
 
  const rutas_init = () =>{
         const router = Router()
-//        const router1 = Router()
 
-        router.use("/usuarios", usuarioRoutes)
+        router.use("/usuario", usuarioRoutes)
         router.use("/paciente", pacienteRoutes)
         router.use("/medico", medicoRoutes)
         router.use("/tratamiento", tratamientoRoutes)

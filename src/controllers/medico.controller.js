@@ -5,7 +5,7 @@ module.exports ={
             console.log('ejecutando Medico listar Todos')
 
             res.json({
-                message:'Listado de Medicos'
+                message:'Listado de Todos los Médicos'
             })
         } catch (error) {
             console.log(error)
